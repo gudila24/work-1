@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="chapters">
+                <div class="heading">
+                    <h1>LINK PSEUDO-CLASSES</h1>
+                </div>
+                <div class="list">
+                    <a>:visited pseudo-class</a>
+                    <a>:link pseudo-class</a>
+                </div>
+            </div>
+            <div class="chapters">
+                <div class="heading">
+                    <h1>USER ACTION PSEUDO CLASSES</h1>
+                </div>
+                <div class="list">
+                    <p>HOVER pseudo-class</p>
+                    <a>:active pseudo-class</a>
+                    <a class="a">focus pseudo-class</a>
+                </div>
+            </div>
+            <div class="chapters">
+                <div class="heading">
+                    <h1>USER INTERFACE STATE PSEUDO-CLASSES</h1>
+                </div>
+                <div class="row-first">
+                    <p class="m-l">First Name:</p>
+                    <input class="input" type="text" size="40">
+                    <p class="m-l">Last Name:</p>
+                    <input class="input" type="text" size="40">
+                    <p class="m-l">I own a firefly-class transport ship</p>
+                    <input class="input" type="checkbox">
+                </div>
+            </div>
+            <div class="chapters">
+                <div class="heading">
+                    <h1>STRUCTURAL AND POSITION PSEUDO-CLASSES</h1>
+                </div>
+                <div class="row-second">
+                    <p>:fire-child :last-child and :only-child</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="column-first">
+                <div class="heading">
+                    <h1>:first-of-type :last-of-type and :only-of-type</h1>
+                </div>
+                <div class="list-main">
+                    <a>This paragraph is selected by :first-of-type</a>
+                    <a>This paragraph will not be selected</a>
+                    <p class="paragraph">THIS SPAN IS SELECTED BY :ONLY-OF-TYPE</p>
+                    <a>This paragraph is selected by :last-of-type</a>
+                </div>
+            </div>
+            <div class="column-second">
+                <div class="heading">
+                    <h1>:nth-child(n) and :nth-last-child(n)</h1>
+                </div>
+                <div class="list-main">
+                    <p class="paragraph">First line of text</p>
+                    <p class="paragraph">Second line of text</p>
+                    <p class="paragraph">Third line of text</p>
+                    <p class="paragraph">Fourth line of text</p>
+                    <p class="paragraph">Fifth line of text</p>
+                    <p class="paragraph">Sixth line of text</p>
+                </div>
+            </div>
+            <div class="column-third">
+                <div class="heading">
+                    <h1>:nth-of-type(n) and :nth-last-of-type(n)</h1>
+                </div>
+                <div class="list-main">
+                    <p class="paragraph">First line of text</p>
+                    <p class="paragraph">Second line of text</p>
+                    <p class="paragraph">Third line of text</p>
+                    <p class="paragraph">Fourth line of text</p>
+                </div>
+            </div>
+            <div class="column-fourth">
+                <div class="heading">
+                    <h1>NEGATION PSEUDO-CLASS</h1>
+                </div>
+                <div class="list-main">
+                    <p class="paragraph">This is some bold text</p>
+                    <p class="paragraph">This is some more bold text</p>
+                    <p class="paragraph">This is selected with :not(.bold) and is not bold</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="heading">
+                <h1>STRUCTURAL AND POSITION PSEUDO-CLASSES</h1>
+            </div>
+            <div class="lists">
+                <p>:first-child :last-child and :only-child</p>
+                <div class="list-footer">
+                    <ul>
+                        <li class="first">
+                            This list item is selected by :first-child
+                        </li>
+                        <li class="second">
+                            This list item is not selected
+                        </li>
+                    </ul>
+                </div>
+                <div class="list-footer">
+                    <ul>
+                        <li><a class="third">THIS LISTED LINK IS SELECTED BY :ONLY-CHILD </a></li>
+                        <li class="fourth">This list item is selected by :last-child</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
